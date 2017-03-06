@@ -1,0 +1,24 @@
+{
+    "name": "zhouhongbo/welcome_mail",
+    "type": "roundcube-plugin",
+    "description": "Let a newly created user receive a welcome mail after first-logon.",
+    "license": "GPLv3+",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Hongbo Zhou",
+            "email": "zhouhongbo199102@163.com",
+            "role": "Lead"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://plugins.roundcube.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "roundcube/plugin-installer": ">=0.1.3"
+    }
+}
